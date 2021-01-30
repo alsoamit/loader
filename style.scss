@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100wh;
+    background-color: rgb(26, 26, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        display: inline-block;
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: rgb(233, 250, 3);
+        margin: 0.5rem;
+        //box-shadow: 0px 0px 20px rgba(255, 208, 0, 0.911);
+        animation: anime 0.6s 0s infinite ease-in-out alternate, hue 2.4s alternate infinite}
+    #b{
+        animation: anime 0.6s 0.2s infinite ease-in-out alternate, hue 2.4s alternate infinite;
+    }
+    #c{
+        animation: anime 0.6s 0.4s infinite ease-in-out alternate, hue 2.4s alternate infinite;
+    }
+}
+@keyframes anime {
+    0%{
+
+    }
+    100%{
+        height: 2rem;
+        width: 0.5rem;
+        
+    }
+}
+@keyframes hue {
+    25%{
+        filter: hue-rotate(20deg)
+    }
+    50%{
+        filter: hue-rotate(150deg)
+    }
+    75%{
+        filter: hue-rotate(270deg)
+    }
+    100%{
+        filter: hue-rotate(360deg)
+    }
+}
