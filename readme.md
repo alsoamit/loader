@@ -1,4 +1,4 @@
-simple loader for websites in html and css
+simple loader for slower websites in html and css
 <br>
 
 <h2>PREVIEW</h2>
